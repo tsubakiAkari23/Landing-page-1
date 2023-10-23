@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@900&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -23,6 +25,8 @@ html, body {
     width: 64%;
     background-color: blue;
     background-image: url(https://images.unsplash.com/photo-1662330287683-6032da28889c?auto=format&fit=crop&q=80&w=2070&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    /* background-image: url(https://images.unsplash.com/photo-1662330286867-8cb2a4d7633d?auto=format&fit=crop&q=80&w=1587&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D); */
+    /* background-image: url(https://images.unsplash.com/photo-1514866747592-c2d279258a78?auto=format&fit=crop&q=80&w=1887&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D); */
     background-position: center;
     background-size: cover;
     /* background-color: #64474745; */
@@ -49,18 +53,47 @@ html, body {
     transform: translate(0, -30%);
 }
 #text-div h1 {
-    font-size: 75px;
-    font-family: 'Kanit', sans-serif;;
-    font-weight: 750;
+    font-size: 70px;
+    font-family: 'Kanit', sans-serif;
+    font-weight: 900;
     font-stretch: ultra-expanded;
-    line-height: 75px;
+    line-height: 65px;
     letter-spacing: 3px;
     text-transform: uppercase;
     color: white;
 }
 #small-img {
     height: 400px;
-    width: 300px;
-    background-color: red;
+    width: 400px;
+    /* background-color: red; */
+    /* background-image: url(https://images.unsplash.com/photo-1662330286867-8cb2a4d7633d?auto=format&fit=crop&q=80&w=1587&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D); */
+    /* background-image: url(https://images.unsplash.com/photo-1662330287683-6032da28889c?auto=format&fit=crop&q=80&w=2070&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D); */
+    background-image: url(https://media.istockphoto.com/id/1302394746/photo/a-young-latina-brunette-leaning-against-a-tree-with-a-slight-light-on-her-face-portrait-with.webp?s=170667a&w=0&k=20&c=JgapRhXCHHKZVwr9xZ9sVio-voVNu98ut0Q8GPDF64Y=);
+
+    background-size: cover;
+    background-position: center;
     position: absolute;
+    top: 50%;
+    right: 12%;
+    transform: translate(0, -60%);
 }
+#vertical-text {
+    position: absolute;
+    width: 100%;
+    /* background-color: red; */
+    transform-origin: 0% 0%;
+    transform: rotate(-90deg);
+    right: 5%;
+}
+
+#vertical-text h1 {
+    font-size: 70px;
+    font-weight: 900;
+    font-family: 'Kanit', sans-serif;
+    letter-spacing: 10px;
+    /* writing-mode: vertical-rl;
+    text-orientation: mixed; */
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: white;
+    color: transparent;
+}   
